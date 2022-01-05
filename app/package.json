@@ -1,7 +1,6 @@
 {
   "name": "candy-drop",
   "version": "1.0.0",
-  "homepage": "/nft-drop-starter-project",
   "private": true,
   "dependencies": {
     "@metaplex/js": "^4.7.0",
