@@ -2,7 +2,7 @@ name: React app deployement
 
 defaults:
     run:
-      working-directory: ./src
+      working-directory: ./app
 
 on:
   push:
