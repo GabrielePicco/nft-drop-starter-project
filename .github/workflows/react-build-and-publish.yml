@@ -1,5 +1,9 @@
 name: React app deployement
 
+defaults:
+    run:
+      working-directory: ./src
+
 on:
   push:
     branches: [ main ]
@@ -9,7 +13,9 @@ jobs:
 
     runs-on: ubuntu-latest
     
+    
     steps:
+    
     - uses: actions/checkout@v2
 
     - name: Deploy react app to github pages
